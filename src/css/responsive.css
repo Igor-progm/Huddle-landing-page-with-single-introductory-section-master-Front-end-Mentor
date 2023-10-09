@@ -1,18 +1,59 @@
-@media (max-width:1440px) {
+@media (max-width:1170px) {
     .main {
-        flex-direction: column;
+        padding: 60px;
     }
     
-    .main .info {
+    .main .container {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .main .container .info {
+        height: 350px;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .main .container .info .title {
         text-align: center;
     }
 
-    .main .info .about {
+    .main .container .info .description {
+        font-size: 24px;
         text-align: center;
+    }
+
+    .main .container .info a .btn-register {
+        margin-top: 40px;
+        padding: 20px 100px;
+        font-size: 20px;
     }
 
     .main .socials {
-        
+        justify-content: center;
+        margin: 100px 0 50px;
+    }
+}
+
+@media (max-width: 554px) {
+    .main .container .section-img .header .logo {
+        width: 200px;
+    }
+    
+    .main .container .section-img .ilustration {
+        /* min-width: 330px; */
+    }
+
+    .main .container .info .title {
+        font-size: 32px;
+    }
+
+    .main .container .info .description {
+        font-size: 20px;
+    }
+
+    .main .container .info a .btn-register {
+        padding: 15px 100px;
+        font-size: 18px;
     }
 }
